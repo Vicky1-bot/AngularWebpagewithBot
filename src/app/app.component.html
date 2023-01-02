@@ -1,0 +1,44 @@
+<html>
+<div id="container">
+  <div class="fat-arrow">
+    <div id="nested-routing">
+      <header>
+        <nav>
+          <ul>
+            <li routerLink="home">Home</li>
+            <li routerLink="about">About</li>
+            <li routerLink="products">Products</li>
+            <li routerLink="contact">Contact</li>
+            <li routerLink="cart">Card</li>
+          </ul>
+        </nav>
+      </header>
+      <div id="routeWrapper">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(14, 5, 5);
+      color: white;
+      text-align: center;
+    }
+  </style>
+  
+  <body>
+    <div class="footer">
+      <p>Author: Sreekanth M<br>
+        <a href="mailto:sreekanthsree372@gmail.com">sreekanthsree372@gmail.com</a>
+      </p>
+    </div>
+  </body>
+</div>
+
+</html>

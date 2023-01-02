@@ -1,0 +1,50 @@
+header {
+    background-color: #292c2f;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    min-height: 100%;
+    position: relative;
+    left: 0;
+ 
+
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size:20pt;
+  }
+  
+  header p {
+    margin: 0;
+    font-size: 16pt;
+  }
+  
+  header nav {
+    display: inline-block;
+  }
+  
+  header nav ul {
+    padding: 0;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+  }
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+
+
+  
