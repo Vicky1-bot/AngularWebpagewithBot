@@ -30,6 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 <p >
-  <img src="https://github.com/Vicky1-bot/AngularWebpagewithBot/blob/main/sample.png" width="350" title="sample Demo_pic">
+  <img src="https://github.com/Vicky1-bot/AngularWebpagewithBot/blob/main/sample.png" width="600" title="sample Demo_pic" alt="img">
 </p>
 
